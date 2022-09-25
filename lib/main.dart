@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:horoscopes/views/screens/MyHomePage.dart';
 
 void main() {
   runApp(const MyApp());
