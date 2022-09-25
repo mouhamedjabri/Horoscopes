@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:get/get_navigation/src/root/get_material_app.dart';
+import 'package:horoscopes/views/screens/DeatilesPage.dart';
 import 'package:horoscopes/views/screens/MyHomePage.dart';
 
 void main() {
@@ -11,9 +14,13 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return GetMaterialApp(
       title: 'Horoscopes',
-      home: MyHomePage(),
+      initialRoute: "/",
+      getPages: [
+        GetPage(name: "/", page: ()=>MyHomePage()),
+        GetPage(name: "/DeatilesPage", page: ()=>DeatilesPage()),
+      ],
     );
   }
 }

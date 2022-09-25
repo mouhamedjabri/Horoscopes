@@ -3,7 +3,7 @@ import 'package:get/get.dart';
 
 
 class MyhomePageController extends GetxController {
-  bool isScroll=false;
+  bool isScroll=true;
   ScrollController? scrollcontroller;
   @override
   void onInit() {
@@ -15,7 +15,6 @@ class MyhomePageController extends GetxController {
         print(scrollcontroller!.offset.toInt());
         isScroll = true;
         update();
-
       }else{
         isScroll = false;
         update();
