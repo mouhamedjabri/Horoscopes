@@ -1,16 +1,7 @@
-# horoscopes
+Horoscopes app is a design implementaion of [Simple daily horoscope app](https://dribbble.com/shots/11157918-Simple-daily-horoscope-app) designed by [Valery Yakovchik](https://dribbble.com/kto_nekto)
 
-A new Flutter project.
+## Android Screenshots
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+  HomePage                 |   Detail Page        |
+:-------------------------:|:--------------------:|
+![](https://github.com/mouhamedjabri/Horoscopes/blob/e3c11420d1207a6002ddd4b6b0d8ecc4ada87f4d/assets/screen_shot/Screenshot_20220925_230701.png)|![](https://github.com/mouhamedjabri/Horoscopes/blob/e3c11420d1207a6002ddd4b6b0d8ecc4ada87f4d/assets/screen_shot/Screenshot_20220925_230734.png)|
