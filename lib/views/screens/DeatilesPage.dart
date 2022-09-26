@@ -58,7 +58,7 @@ class DeatilesPage extends StatelessWidget {
                             controller: cntroller.tabController,
                             tabs: [
                               Tab(text: "Today",),
-                              Tab(text: "Genirall",),
+                              Tab(text: "Generally",),
                             ],
                           ),
                           Expanded(
